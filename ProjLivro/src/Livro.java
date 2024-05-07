@@ -93,11 +93,13 @@ public class Livro implements Publicacao {
     @Override
     public void avançarPagina(int avancar) {
         if(this.getAberto() == true){
+
             if(avancar < this.getTotalPaginas()){
             this.setPagAtual(getPagAtual() + avancar);
             } else {
                 this.setPagAtual(getTotalPaginas());
                 System.out.println("Impossível avançar mais paginas");}
+                
         } else {System.out.println("O livro está fechado, abra para avancar pagimas");}
     }
 
