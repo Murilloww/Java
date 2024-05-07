@@ -1,1 +1,1 @@
-A simple CLI to teste Encapsulation
+A simple CLI to test Encapsulation
