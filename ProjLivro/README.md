@@ -1,1 +1,1 @@
-A CLI proj. that implements encapsulation and relationship between classes
+A CLI project that implements encapsulation and relationship between classes
